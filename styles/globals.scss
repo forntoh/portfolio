@@ -39,6 +39,11 @@
   body {
     @apply text-white font-mono;
   }
+
+  input[type="text"]:focus + label,
+  textarea:focus + label {
+    @apply text-primary transform -translate-y-4 -translate-x-1;
+  }
 }
 
 body[class*="fp-viewing-spaces-"],

@@ -1,7 +1,7 @@
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "images/" + data.image;
+    var profilepic = "/images/" + data.image;
     var bio = data.bio;
     var street = data.address.street;
     var city = data.address.city;
@@ -9,7 +9,6 @@ const About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
-    var resumeDownload = data.resumedownload;
   }
 
   return (
@@ -26,7 +25,7 @@ const About = ({ data }) => {
         <div className="col-span-5 space-y-4">
           <h2>About Me</h2>
           <p>{bio}</p>
-          <h2>Contact Details</h2>
+          <h3>Contact Details</h3>
           <div>
             <p>{name}</p>
             <p>{street}</p>
