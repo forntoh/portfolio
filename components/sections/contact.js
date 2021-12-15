@@ -69,7 +69,7 @@ const Contact = ({ data }) => {
                 />
                 <Input
                   id="message"
-                  label="Nachricht"
+                  label="Message"
                   type="textarea"
                   rows={8}
                   onChange={(e) => setMessage(e.target.value)}
