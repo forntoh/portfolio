@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.19",
     "@headlessui/react": "^1.4.2",
     "@tailwindcss/forms": "^0.4.0",
     "framer-motion": "^5.5.2",

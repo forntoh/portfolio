@@ -1,5 +1,5 @@
 function Experience() {
-  return <div></div>;
+  return <div className="section">Experience</div>;
 }
 
 export default Experience;

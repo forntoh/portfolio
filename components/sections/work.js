@@ -1,5 +1,5 @@
 function Work() {
-  return <div></div>;
+  return <div className="section">Work</div>;
 }
 
 export default Work;
