@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
   return (
     <section className="section container z-10">
       <div className="space-y-8">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="flex flex-wrap md:grid grid-cols-2 gap-6">
           <aside className="space-y-6">
             <h1>Get In Touch.</h1>
             <p>{contactMessage}</p>
@@ -49,35 +49,33 @@ const Contact = ({ data }) => {
               </div>
             </div>
           </aside>
-          <div className="eight columns">
-            <form onSubmit={submitForm}>
-              <fieldset className="space-y-8">
-                <Input
-                  id="name"
-                  label="Name"
-                  onChange={(e) => setName(e.target.value)}
-                />
-                <Input
-                  id="email"
-                  label="Email"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <Input
-                  id="subject"
-                  label="Subject"
-                  onChange={(e) => setSubject(e.target.value)}
-                />
-                <Input
-                  id="message"
-                  label="Message"
-                  type="textarea"
-                  rows={8}
-                  onChange={(e) => setMessage(e.target.value)}
-                />
-                <Button label="Submit" onClick={submitForm} />
-              </fieldset>
-            </form>
-          </div>
+          <form onSubmit={submitForm} className="w-full">
+            <fieldset className="space-y-8">
+              <Input
+                id="name"
+                label="Name"
+                onChange={(e) => setName(e.target.value)}
+              />
+              <Input
+                id="email"
+                label="Email"
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <Input
+                id="subject"
+                label="Subject"
+                onChange={(e) => setSubject(e.target.value)}
+              />
+              <Input
+                id="message"
+                label="Message"
+                type="textarea"
+                rows={8}
+                onChange={(e) => setMessage(e.target.value)}
+              />
+              <Button label="Submit" onClick={submitForm} />
+            </fieldset>
+          </form>
         </div>
       </div>
     </section>

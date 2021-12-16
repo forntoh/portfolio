@@ -21,7 +21,7 @@ export const SocailLinks = ({
   return (
     <div
       id="social-links"
-      className="flex justify-between absolute bottom-0 w-full px-20 items-end"
+      className="flex sticky justify-between bottom-0 w-full pl-9 pr-5 md:px-20 items-end"
     >
       <ul className="flex flex-col space-y-6 before:w-px before:bg-gray-500 before:h-full before:absolute before:-ml-5 pb-24 before:mt-2">
         {data.map((item, i) => (
@@ -48,7 +48,7 @@ export const SocailLinks = ({
           </li>
         ))}
       </ul>
-      <div className="relative pb-80 text-gray-500 border-r-gray-500 border-r">
+      <div className="relative pb-80 text-gray-500 border-r-gray-500 border-r bg-black">
         <div className="absolute -right-48 -top-2 rotate-90 cursor-pointer origin-top-left hover:-top-4 hover:text-primary transition-all">
           thomasforntoh@gmail.com
         </div>

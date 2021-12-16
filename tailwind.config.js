@@ -27,10 +27,10 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1.25rem",
-        sm: "2rem",
-        lg: "4rem",
-        xl: "8rem",
+        DEFAULT: "5.5rem",
+        sm: "7rem",
+        lg: "8rem",
+        xl: "10rem",
         "2xl": "12rem",
       },
     },

@@ -13,10 +13,10 @@ const About = ({ data }) => {
 
   return (
     <section className="section container">
-      <div className="justify-between w-full grid grid-cols-8">
+      <div className="justify-between w-full flex flex-col lg:grid lg:grid-cols-8 gap-6">
         <div className="col-span-2">
           <img
-            className="rounded-full"
+            className="rounded-full w-1/2"
             src={profilepic}
             alt="Sonny's Profile Pic"
           />

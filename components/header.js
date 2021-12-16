@@ -3,7 +3,7 @@ import { Button } from "./button";
 const Header = () => {
   return (
     <header id="header" className="absolute top-0 w-full py-8 bg-background">
-      <div className="container flex justify-between">
+      <div className="container md:flex justify-between hidden">
         <span></span>
         <ul className="flex space-x-10 text-gray-500 items-center">
           <li className="cursor-pointer hover:text-primary transition-all">
