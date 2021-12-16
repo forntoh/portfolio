@@ -16,7 +16,7 @@ const About = ({ data }) => {
       <div className="justify-between w-full flex flex-col lg:grid lg:grid-cols-8 gap-6">
         <div className="col-span-2">
           <img
-            className="rounded-full w-1/2"
+            className="rounded-full w-1/2 lg:w-auto"
             src={profilepic}
             alt="Sonny's Profile Pic"
           />

@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
   return (
     <section className="section container z-10">
       <div className="space-y-8">
-        <div className="flex flex-wrap md:grid grid-cols-2 gap-6">
+        <div className="flex flex-wrap lg:grid grid-cols-2 gap-10">
           <aside className="space-y-6">
             <h1>Get In Touch.</h1>
             <p>{contactMessage}</p>
